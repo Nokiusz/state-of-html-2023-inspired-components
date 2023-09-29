@@ -1,4 +1,4 @@
-import { Home, One } from './pages';
+import { Home, DataList } from './pages';
 
 /* eslint-disable react-refresh/only-export-components */
 interface Route {
@@ -14,9 +14,9 @@ export const ROUTES: Array<Route> = [
     element: <Home />,
   },
   {
-    name: '1',
-    path: '/1',
-    element: <One />,
+    name: 'datalist',
+    path: '/datalist',
+    element: <DataList />,
   },
   {
     name: '2',

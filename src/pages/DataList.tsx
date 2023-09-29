@@ -1,4 +1,4 @@
-const One = () => {
+const DataList = () => {
   return (
     <section className='flex flex-col items-center justify-center gap-4 py-24'>
       <h1 className='text-3xl font-bold tracking-tighter text-white sm:text-5xl xl:text-6xl/none '>
@@ -26,4 +26,4 @@ const One = () => {
   );
 };
 
-export default One;
+export default DataList;
