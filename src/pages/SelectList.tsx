@@ -27,6 +27,7 @@ const SelectList = () => {
             <option value='Chrome'>Chrome</option>
             <option value='Opera'>Opera</option>
             <option value='Safari'>Safari</option>
+            {/* @ts-expect-error Property 'selectmenu' does not exist on type 'JSX.IntrinsicElements'.ts(2339) */}
           </selectmenu>
         </div>
       </section>
