@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'; // Import Link from React Router if you
 
 const NavBar = () => {
   return (
-    <nav className='fixed top-0 flex'>
+    <nav className='fixed top-0 flex justify-center w-full'>
       <ul className='flex space-x-4'>
         {ROUTES.map((route, index) => (
           <li key={index}>
