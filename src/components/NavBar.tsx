@@ -9,7 +9,7 @@ const NavBar = () => {
           <li key={index}>
             <Link
               to={route.path}
-              className='text-white scroll-m-20 text-4xl font-bold tracking-tight no-underline hover:text-gray-300   transition duration-300'
+              className='text-4xl font-bold tracking-tight text-white no-underline capitalize transition duration-300 scroll-m-20 hover:text-gray-300'
             >
               {route.name}
             </Link>
