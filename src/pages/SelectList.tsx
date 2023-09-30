@@ -17,6 +17,7 @@ const SelectList = () => {
           <p className='mb-2 font-semibold text-gray-700'>
             Choose your browser from the list:
           </p>
+          {/* @ts-expect-error Property 'selectmenu' does not exist on type 'JSX.IntrinsicElements'.ts(2339) */}
           <selectmenu
             className='w-full px-3 py-2 text-black border border-gray-300 rounded-md focus:outline-none focus:border-blue-500  [&>*]:h-6 [&>*]:border [&>*]:text-center'
             id='browsers'
