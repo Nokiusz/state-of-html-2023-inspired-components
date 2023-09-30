@@ -1,4 +1,4 @@
-import { Home, DataList, ShowPicker } from './pages';
+import { Home, DataList, ShowPicker, SelectList } from './pages';
 
 /* eslint-disable react-refresh/only-export-components */
 interface Route {
@@ -24,9 +24,9 @@ export const ROUTES: Array<Route> = [
     element: <ShowPicker />,
   },
   {
-    name: '3',
-    path: '/3',
-    element: <div>3</div>,
+    name: 'selectlist',
+    path: '/selectlist',
+    element: <SelectList />,
   },
   {
     path: '*', // 404
