@@ -17,9 +17,6 @@ const ShowPicker = () => {
         showpicker()
       </h1>
       <div className='w-[300px] p-6 bg-white shadow-md rounded-lg flex flex-col'>
-        <label htmlFor='browser' className='mb-2 font-semibold text-gray-700'>
-          Choose your browser from the list:
-        </label>
         <input
           ref={datePickerRef}
           name='date-picker'
