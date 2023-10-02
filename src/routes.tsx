@@ -4,6 +4,7 @@ import {
   ShowPicker,
   SelectList,
   ContentEditable,
+  FormDataAPI,
 } from './pages';
 
 /* eslint-disable react-refresh/only-export-components */
@@ -35,9 +36,14 @@ export const ROUTES: Array<Route> = [
     element: <SelectList />,
   },
   {
-    name: 'contentEditable',
+    name: 'ContentEditable',
     path: '/content-editable',
     element: <ContentEditable />,
+  },
+  {
+    name: 'FormDataAPI',
+    path: '/form-data-api',
+    element: <FormDataAPI />,
   },
   {
     path: '*', // 404
